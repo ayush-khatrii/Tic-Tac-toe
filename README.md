@@ -1,36 +1,11 @@
-# React + Vite + Tailwind Starter
+# Tic-Tac-Toe Board Component
 
-## Introduction
+This is a React component for a Tic-Tac-Toe board. It allows two players to play the classic game of Tic-Tac-Toe.
 
-This is a starter project for developing websites using React, Vite, and Tailwind CSS.
+## Features
 
-## Getting Started
-
-1. **Clone the Repository:**
-
-```bash
- git clone https://github.com/ayush-khatrii/vite-react-tailwind-boilerplate
- ```
-  ### Navigate to the Project Directory:
-   ```bash
-   cd your-project-name
-   ```
-  ### Install Dependencies:
-   ```bash
-    npm install
-   ```
-### Start the Development Server:
-   ```bash
-    npm run dev
-   ```
-
-
-<br/>
-
-## Updating Dependencies
- ```
- npm update
-```
-## Happy Coding! 🚀🧑‍💻
-
-
+- Dynamic board with 3x3 squares
+- Tracks player turns (X and O)
+- Detects win conditions
+- Handles game draw scenarios
+- Reset button to start a new game
